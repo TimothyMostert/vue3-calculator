@@ -43,6 +43,7 @@ export default {
   background: #2c2c2c;
   width: 400px;
   height: 600px;
+  border-radius: 8px;
   .display {
     background-color: beige;
     width: fill-available;
