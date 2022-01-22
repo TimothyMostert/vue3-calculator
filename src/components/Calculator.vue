@@ -75,8 +75,6 @@ export default {
     const equals = () => {
       operationString.value = operationString.value + currentValue.value;
       currentValue.value = "0";
-      console.log(operationString.value);
-      console.log(currentValue.value);
       let evaluatedOperationString = eval(operationString.value);
       totalValue = evaluatedOperationString;
       displayValue.value = evaluatedOperationString.toString();
